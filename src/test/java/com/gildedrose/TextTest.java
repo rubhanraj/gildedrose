@@ -1,5 +1,6 @@
 package com.gildedrose;
 
+import org.junit.Rule;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -14,6 +15,9 @@ public class TextTest {
     public void preservesBehaviour() throws IOException {
         assertThat(exerciseCode(5), equalTo(a5));
     }
+
+
+
 
     private final static String a5 = "OMGHAI!\n" +
             "-------- day 0 --------\n" +
